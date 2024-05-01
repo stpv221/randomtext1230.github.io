@@ -3,14 +3,3 @@ body {
     font-family: sans-serif;
     color: black;
 }
-.head {
-    width: 100%;
-    height: 3rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-}
-.head-inner {
-    box-sizing: border-box;
-}
