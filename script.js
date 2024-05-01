@@ -1,7 +1,7 @@
 const test = document.getElementById("url");
 
-test.innerHTML = window.URL;
+test.innerHTML = window.location.href;
 
-if (window.URL === "https://odin.is-probably.gay") {
+if (window.location.href === "https://odin.is-probably.gay") {
   window.location.replace("https://stackoverflow.com");
 }
