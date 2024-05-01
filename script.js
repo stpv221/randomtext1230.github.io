@@ -1,13 +1,7 @@
+const test = document.getElementById("url");
 
-const cool = document.createElement("img");
-cool.src = "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg";
-cool.width = "50px";
+test.innerHTML = window.URL;
 
-var makeItBigger = function() {
-    // "50px" + 1 -> 50px1
-    cool.style.width = (parseFloat(cool.style.width) + 1) + "px";  
-  };
-
-window.setInterval(makeItBigger, 1000/30)
-
-document.body.appendChild(cool);
+if (window.URL === "https://odin.is-probably.gay") {
+  window.location.replace("https://stackoverflow.com");
+}
