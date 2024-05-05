@@ -3,3 +3,17 @@ body {
     font-family: sans-serif;
     color: black;
 }
+[draggable=true] {
+    cursor: move;
+  }
+  
+  .resizable {
+    overflow: scroll;
+    resize: both;
+    max-width: 300px;
+    max-height: 460px;
+    border: 1px solid black;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: skyblue;
+  }
